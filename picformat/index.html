@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PicFormat — Simple Image Tools</title>
+    <meta name="description" content="PicFormat provides simple tools for converting and processing images.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">
+            <span class="logo-mark">P</span>
+            <span>PicFormat</span>
+        </div>
+
+        <nav>
+            <a href="#tools">Tools</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="container hero-content">
+
+            <div class="hero-text">
+                <div class="badge">FREE IMAGE UTILITIES</div>
+
+                <h1>Simple tools for<br><span>better images.</span></h1>
+
+                <p>
+                    PicFormat provides lightweight tools for converting,
+                    formatting, and preparing images for everyday use.
+                </p>
+
+                <a class="button" href="#tools">View Tools</a>
+            </div>
+
+            <div class="hero-card">
+                <div class="preview-icon">IMG</div>
+                <div class="preview-lines">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="preview-label">IMAGE PROCESSING</div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="tools" class="section">
+        <div class="container">
+
+            <div class="section-heading">
+                <span>OUR TOOLS</span>
+                <h2>Image utilities</h2>
+                <p>Quick tools for common image processing tasks.</p>
+            </div>
+
+            <div class="tools-grid">
+
+                <div class="tool-card">
+                    <div class="tool-icon">↔</div>
+                    <h3>Format Converter</h3>
+                    <p>
+                        Convert images between common formats including
+                        PNG, JPEG, and WebP.
+                    </p>
+                    <button onclick="showMessage('Format Converter')">
+                        Open Tool
+                    </button>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">◩</div>
+                    <h3>Image Negative</h3>
+                    <p>
+                        Invert image colors to create a photographic
+                        negative effect.
+                    </p>
+                    <button onclick="showMessage('Image Negative')">
+                        Open Tool
+                    </button>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">□</div>
+                    <h3>Image Resizer</h3>
+                    <p>
+                        Resize images while maintaining their original
+                        aspect ratio.
+                    </p>
+                    <button onclick="showMessage('Image Resizer')">
+                        Open Tool
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="about" class="about section">
+        <div class="container about-grid">
+
+            <div>
+                <div class="section-heading">
+                    <span>ABOUT PICFORMAT</span>
+                    <h2>Simple by design.</h2>
+                </div>
+
+                <p>
+                    PicFormat was created to provide straightforward image
+                    utilities without requiring users to install complicated
+                    software.
+                </p>
+
+                <p>
+                    Our tools are designed to be lightweight, fast, and easy
+                    to use.
+                </p>
+            </div>
+
+            <div class="stats">
+                <div>
+                    <strong>3+</strong>
+                    <span>Tools</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Free</span>
+                </div>
+
+                <div>
+                    <strong>0</strong>
+                    <span>Accounts Required</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact section">
+        <div class="container">
+
+            <div class="contact-box">
+                <div>
+                    <div class="section-heading">
+                        <span>GET IN TOUCH</span>
+                        <h2>Have a question?</h2>
+                    </div>
+
+                    <p>
+                        Questions or suggestions? Contact the PicFormat team.
+                    </p>
+                </div>
+
+                <a href="mailto:contact@picformat.example" class="button">
+                    Contact Us
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+
+<footer>
+    <div class="container footer-content">
+        <div>
+            <strong>PicFormat</strong>
+            <p>Simple image utilities.</p>
+        </div>
+
+        <div>
+            © 2026 PicFormat
+        </div>
+    </div>
+</footer>
+
+
+<div id="message" class="message">
+    This tool is currently unavailable.
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
